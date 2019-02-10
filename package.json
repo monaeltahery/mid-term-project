@@ -19,5 +19,8 @@
   "devDependencies": {
     "webpack": "^4.29.3",
     "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "gulp": "^4.0.0"
   }
 }
