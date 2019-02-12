@@ -1,0 +1,11 @@
+@import 'variable';
+body {
+font-family: $fonts-text;
+background-color: $black;
+font-size: $text-font-size;
+}
+
+header {
+  background-color: $darkgrey;
+  height: 80px;
+}

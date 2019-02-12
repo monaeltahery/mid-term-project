@@ -1,0 +1,31 @@
+{
+  "name": "mid-term-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monaeltahery/mid-term-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monaeltahery/mid-term-project/issues"
+  },
+  "homepage": "https://github.com/monaeltahery/mid-term-project#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.8",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "webpack": "^4.29.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "gulp": "^4.0.0"
+  }
+}
