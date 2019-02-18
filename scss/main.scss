@@ -18,3 +18,21 @@ footer {
   images: url("{$root}eddyDog.png");
 
 }
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
+   background: {
+       image: url($imgpath);
+       position: $position;
+       repeat: $repeat;
+   }
+}
+.testing {
+   @include background('/my/img/path.png');
+}
+.
+  img {
+    position: relative;
+    margin: 20px;
+    width: 450;
+    height:300px;
+    float: left;
+}
