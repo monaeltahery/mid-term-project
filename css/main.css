@@ -7,5 +7,5 @@ header {
   background-color: dimgray;
   height: 80px; }
 
-#form {
+#container {
   background: url("{$root}eddyDog.png"); }

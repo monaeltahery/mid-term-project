@@ -5,11 +5,16 @@ background-color: $black;
 font-size: $text-font-size;
 }
 
-header {
+header
+footer {
   background-color: $darkgrey;
   height: 80px;
 }
 
-#form {
-  background: url("{$root}eddyDog.png");
+#container {
+  images: url("{$root}images/eddyDog.png");
+  images: url("{$root}images/eddyDog.png");
+  images: url("{$root}images/eddyDog.png");
+  images: url("{$root}eddyDog.png");
+
 }
