@@ -9,6 +9,7 @@ header
 footer {
   background-color: $darkgrey;
   height: 80px;
+  color:$primary-color;
 }
 
 #container {
@@ -26,7 +27,7 @@ footer {
    }
 }
 .testing {
-   @include background('/my/img/path.png');
+   @include background('/my/img/sinaiMountains.png');
 }
 .
   img {
