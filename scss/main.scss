@@ -12,28 +12,27 @@ footer {
   color:$primary-color;
 }
 
-#container {
-  images: url("{$root}images/eddyDog.png");
-  images: url("{$root}images/eddyDog.png");
-  images: url("{$root}images/eddyDog.png");
-  images: url("{$root}eddyDog.png");
+h2 {
+  font-family: $font-text;
+}
 
-}
-@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
-   background: {
-       image: url($imgpath);
-       position: $position;
-       repeat: $repeat;
-   }
-}
-.testing {
-   @include background('/my/img/sinaiMountains.png');
-}
-.
-  img {
-    position: relative;
-    margin: 20px;
-    width: 450;
-    height:300px;
+nav {
+  ul {
+    list-style-type: none;
+    float:right;;
+  }
+  li {
+    display: inline;
     float: left;
+    &:last-child a {
+      padding-right: 0;
+    }
+    &:first-child a {
+      padding-left:0;
+    }
+  }
+  padding: $top-nav-padding;
+  text-transform: uppercase;
+  color: $white;
+  font-size: $nav-items;
 }

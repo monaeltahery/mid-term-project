@@ -1,4 +1,4 @@
-$fonts-text: Helvetica, Arial, sans-serif;
+$font-text: Helvetica, Arial, sans-serif;
 $font-headings: "Times New Roman", serif;
 $black: rgb(0,0,0);
 $text-font-size: 24 px !default;
@@ -6,3 +6,5 @@ $darkgrey: rgb(105,105,105)
 $container: "$imgpath";
 
 $body-background: url("../images/sinaiMountains.png");
+$top-nav-padding: 0 20px;
+$nav-items: .95em
