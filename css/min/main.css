@@ -1,1 +1,8 @@
-body{font-family:Helvetica,Arial,sans-serif;background-color:#000;font-size:24 px}header{background-color:#696969;height:80px}#container{background:url({$root}eddyDog.png)}
+body{font-family:Helvetica,Arial,sans-serif;
+  background-color:#000;
+  font-size:24 px
+  }
+  header
+  {background-color:#696969;
+    height:80px}
+//#container{background:url({$root}eddyDog.png)}

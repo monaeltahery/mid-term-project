@@ -1,22 +1,30 @@
 @import 'variable';
 body {
-font-family: $fonts-text;
+font-family: $font-text;
 background-color: $black;
 font-size: $text-font-size;
 }
+/*
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+    height: 1600px;
+    position: relative;
+}
+*/
 
 header
 footer {
   background-color: $darkgrey;
   height: 80px;
-  color:$primary-color;
+  font: $font-color;
 }
 
 h2 {
   font-family: $font-text;
 }
 
-nav {
+header nav {
   ul {
     list-style-type: none;
     float:right;;
@@ -31,7 +39,6 @@ nav {
       padding-left:0;
     }
   }
-  padding: $top-nav-padding;
   text-transform: uppercase;
   color: $white;
   font-size: $nav-items;
