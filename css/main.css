@@ -1,12 +1,38 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: black;
-  font-size: 24 px; }
+  font-size: 24 px;
+  background: url("../images/sinaiMountains.png"); }
 
-header {
-  background-color: dimgray;
-  height: 80px; }
-
-/*#container {
-  background: url("{$root}eddyDog.png"); }
+/*
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+    height: 1600px;
+    position: relative;
+}
 */
+header
+footer {
+  background-color: dimgray;
+  height: 80px;
+  font: white;
+  align-items: flex-end; }
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif; }
+
+header nav {
+  text-transform: uppercase;
+  color: white;
+  font-size: 24 px; }
+  header nav ul {
+    list-style-type: none;
+    float: right; }
+  header nav li {
+    display: inline;
+    float: left; }
+    header nav li:last-child a {
+      padding-right: 0; }
+    header nav li:first-child a {
+      padding-left: 0; }

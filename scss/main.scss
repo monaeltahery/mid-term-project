@@ -1,9 +1,9 @@
 @import 'variable';
 body {
-font-family: $font-text;
+font-family: $fonts-text;
 background-color: $black;
 font-size: $text-font-size;
-background-image: : $imgpath: ../images/sinaiMountains.png;
+background: url("../images/sinaiMountains.png");
 }
 /*
   .container {
@@ -18,11 +18,12 @@ header
 footer {
   background-color: $darkgrey;
   height: 80px;
-  font: $font-color;
+  font: $primary-color;
+  align-items: flex-end;
 }
 
 h2 {
-  font-family: $font-text;
+  font-family: $fonts-text;
 }
 
 header nav {
@@ -41,6 +42,6 @@ header nav {
     }
   }
   text-transform: uppercase;
-  color: $white;
-  font-size: $nav-items;
+  color: $primary-color;
+  font-size: $text-font-size;
 }
