@@ -1,47 +1,81 @@
 @import 'variable';
 body {
-font-family: $fonts-text;
 background-color: $black;
 font-size: $text-font-size;
-background: url("../images/sinaiMountains.png");
+background-image: url("/images/sinaiMountains.png");
+background-size: contain;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-image: center;
 }
-/*
-  .container {
-    width: 1000px;
-    margin: 0 auto;
-    height: 1600px;
-    position: relative;
-}
-*/
 
-header
-footer {
-  background-color: $darkgrey;
-  height: 80px;
-  font: $primary-color;
-  align-items: flex-end;
+h1, h2, h3, h4 {
+  font-family: $fonts-text;
+  color: $white;
+}
+
+
+h1 {
+  font-size: $title;
+  margin:0 40px;
+  margin-bottom:inherit;
 }
 
 h2 {
-  font-family: $fonts-text;
+  font-size: $h2;
+  margin: 20px;
 }
 
-header nav {
-  ul {
-    list-style-type: none;
-    float:right;;
-  }
-  li {
+h3 {
+  font-size: $title;
+  text-align: center;
+}
+h4 {
+display: inline-table;
+//float: right;
+text-align: center;
+position:relative;
+color: $white;
+font-family: Arial, sans-serif;
+font-size: $sub-title;
+margin: 1rem 0;
+}
+
+
+header, footer {
+  background-color: $darkgray;
+  height: $top-header;
+  color: $white;
+}
+.col-container {
+       width: 100%;
+       margin: 40px, 50px;
+          }
+   img {
     display: inline;
-    float: left;
-    &:last-child a {
-      padding-right: 0;
-    }
-    &:first-child a {
-      padding-left:0;
-    }
+     width: 35%;
+    margin: 40px;
+    position: relative;
+     border: 5px solid $darkgray;
+     border-radius: 5px;
+       }
+
+  ul {
+    display: inline-flex;
+  clear:both;
+    list-style-type: none;
+    float: right;
+    position: relative;
+    padding: $top-nav-padding;
+  margin: $top-nav-margin;
+    text-transform: uppercase;
+    font-size: $menu-text;
+    font-weight: bold;
+    color: $white;
+    text-align: center;
   }
-  text-transform: uppercase;
-  color: $primary-color;
-  font-size: $text-font-size;
+p {
+  font-family: $fonts-text;
+  margin: 0 30px;
 }
