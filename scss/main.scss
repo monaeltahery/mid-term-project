@@ -1,5 +1,4 @@
 @import 'variable';
-
 body {
   background-color: $black;
   background-image: url("/images/sinaiMountains.png");
@@ -63,28 +62,28 @@ header {
 }
 
 .col-container {
- display: flex;
+ display: inline-block;
 //  width: 100%;
- //margin: 80px 60px;
- position: center;
+ //position: center;
+// padding-right: 150px;
 }
 .w-100 {
-  height: 80px;
+  height: 30px;
 }
 img {
 //  display: inline;
   width: 100%;
-  margin: 50px 75px;
+  margin: 50px 0px;
   //position: relative;
   border: 10px solid $darkgray;
   border-radius: 10px;
 }
 h4 {
   text-align: center;
-  position: relative;
+  //position: relative;
   color: $white;
   font-size: $sub-title;
-   //margin: 20px -370px;
+   padding: 10px 5px;
 }
 
 p {
@@ -92,7 +91,24 @@ p {
   margin: 0 40px;
   padding: 20px;
 }
-/*
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-*/
+@media all and (min-width: 768px) {
+
+    .container {
+        //float: left;
+        //width: calc(50% - 0.3rem - 6px)
+        padding: 3rem;
+        width: 100%;
+    }
+
+    body {
+        //padding: 0.3rem;
+        font-size: 1rem;
+        //display: inline-block;
+        position: relative;
+        float: left;
+        width: calc(100% - 10px);
+    }
+
+}
+
+    
